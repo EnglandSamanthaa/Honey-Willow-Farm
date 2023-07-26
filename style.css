@@ -35,8 +35,15 @@ body {
   background-image: url("IMG/pexels-anete-lusina-6331082.jpg");
   background-size: cover;
   color: #eedfd5;
+  filter: hue-rotate(340deg);
+  ba
 
 }
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+  }
 
 ol, ul {
   list-style: none;
@@ -66,6 +73,7 @@ table {
 
 /* Header styles */
 header {
+  height: 100px;
   position: sticky;
   top: 0;
   display: flex;
@@ -80,12 +88,12 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 150px;
+  height: 100px;
   width: 300px;
 }
 
 #navigationContainer {
-  height: 150px;
+  height: 100px;
   width: 1000px;
 }
 
@@ -105,7 +113,7 @@ header {
   align-items: center;
   font-size: 1.8rem;
   width: 200px;
-  height: 100px;
+  height: 50px;
   margin: 25px;
 }
 
@@ -160,7 +168,7 @@ footer #footerNavList {
 
 #topOfHomePageSection {
   width: 100%;
-  height: 700px;
+  height: 800px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -177,14 +185,14 @@ footer #footerNavList {
   font-size: 4rem;
   width: 100%;
   text-align: center;
-  color: #8071b4;
+  color: black;
 }
 
 #topOfHomePageSection h2 {
   font-size: 2rem;
   width: 100%;
   text-align: center;
-  color: #8071b4;
+  color: black;
 }
 
 #topOfHomePageSection button {
@@ -198,7 +206,7 @@ footer #footerNavList {
 
 
 #featuredProductSection{
-    height: 700px;
+    height: 800px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -208,7 +216,7 @@ footer #footerNavList {
 
     #featuredProductSection h2{
         font-size: 2.2rem;
-        color: #8071b4;
+        color: black;
     }
 
 /* #featuredProductSection *{
@@ -243,7 +251,7 @@ footer #footerNavList {
 
 
 #aboutSummary {
-  height: 700px;
+  height: 800px;
   width: 100%;
   text-align: center;
   display: flex;
@@ -283,7 +291,7 @@ footer #footerNavList {
             display: flex;
             align-items: center;
             margin-right: 100px;
-            background-color:  #8071b471;
+            background-color:  #8071b4a1;
             margin-left: -200px;
             border-radius: 70px;
         }
