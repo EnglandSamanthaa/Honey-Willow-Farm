@@ -36,7 +36,6 @@ body {
   background-size: cover;
   color: #eedfd5;
   filter: hue-rotate(340deg);
-  ba
 
 }
 
@@ -73,13 +72,13 @@ table {
 
 /* Header styles */
 header {
-  height: 100px;
+  height: 50px;
   position: sticky;
   top: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-bottom: solid 5px black;
+  border-bottom: solid 3px black;
   z-index: 1;
   background-color: #8071b4;
 }
@@ -90,10 +89,12 @@ header {
   align-items: center;
   height: 100px;
   width: 300px;
+  border: solid 1px black;
+  background-color: white;
 }
 
 #navigationContainer {
-  height: 100px;
+  height: 100%;
   width: 1000px;
 }
 
@@ -111,10 +112,10 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-size: 1.8rem;
-  width: 200px;
-  height: 50px;
-  margin: 25px;
+  font-size: 1.2rem;
+  width: 100px;
+  height: 30px;
+  margin: 10px;
 }
 
 /* Footer styles */
@@ -195,14 +196,17 @@ footer #footerNavList {
   color: black;
 }
 
-#topOfHomePageSection button {
+button {
   height: 75px;
   width: 300px;
   font-size: 2rem;
   border-radius: 25px;
 }
 
-
+#homeMainSection #featuredProductSection button{
+  margin: 25px;
+  border-radius: 10px;
+}
 
 
 #featuredProductSection{
@@ -210,44 +214,81 @@ footer #footerNavList {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 
     #featuredProductSection h2{
-        font-size: 2.2rem;
+        font-size: 3rem;
         color: black;
+        margin: 75px 25px 25px;
     }
 
-/* #featuredProductSection *{
+ /* #featuredProductSection *{
     border: solid 5px orange;
-} */
+}  */
     #featuredProductContainer{
         height: 500px;
         width: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: center;
+        align-items: center;
+        margin: 25px;
+        border-radius: 10px;
+        
     }
         .itemContainer{
-            height: 100%;
+            height: 400px;
             width: 400px;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            justify-content: space-around;
             align-items: center;
+            padding: 25px;
+            background-color: rgba(255, 255, 255, 0.774);
+            border-radius: 10px;
+            margin: 10px;
+            
         }
             .itemContainer img{
                 height: 300px;
-                width: 250px;
-                margin: 25px;
+                width: 150px;
             }
+              #sampleHoney img{
+                margin-top: 150px;
+                height: 150px;
+            
+              }
+              #halfPoundHoneyWithDripper img{
+                margin-top: 25px;
+                margin-bottom: -25px;
+              }
+              #poundHoneyWithDripper img{
+                margin-top: 10px;
+                margin-bottom: -10px;
+              }
             .itemContainer p{
                 font-size: 1rem;
-                background: #8071b471;
+                background: #8071b4;
                 width: 350px;
-                padding: 25px;
+                padding: 10px;
+                border-radius: 10px;
             }
+            .itemContainer .price{
+              margin: 1px;
+              padding: 1px;
+              margin-bottom: -100px;
+              height: 50px;
+              width: 100px;
+              z-index: 1;
+              align-self: flex-start;
+              margin-left: 25px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+          }
 
 
 #aboutSummary {
@@ -289,6 +330,7 @@ footer #footerNavList {
             font-weight: 600;
             text-align: center;
             display: flex;
+            flex-direction: column;
             align-items: center;
             margin-right: 100px;
             background-color:  #8071b4a1;

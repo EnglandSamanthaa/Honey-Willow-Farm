@@ -1,0 +1,63 @@
+#shopSection {
+    height: 100vh;
+    width: 100%;
+}
+#shopSection #featuredProductSection{
+    background-image: url(IMG/pexels-anete-lusina-5247988.jpg);
+    background-size: cover;
+    height: 675px;
+    padding-top: 25px;
+}
+    #shopSection .itemContainer{
+        padding-top: 40px;
+        height: 380px;
+        background-color: white;
+        border-radius: 10px;
+    }
+        #shopSection .itemContainer img{
+            height: 250px;
+            width: 125px;
+            margin: 1px;
+            padding: 1px;
+        }
+              #shopSection #sampleHoney img{
+                margin-top: 70px;
+                margin-bottom: 30px;
+                height: 150px;
+                width: 100px;            
+              }
+
+        #shopSection .itemContainer .price{
+            margin: 1px;
+            padding: 1px;
+            margin-bottom: -100px;
+            height: 50px;
+            width: 100px;
+            z-index: 1;
+            align-self: flex-start;
+            margin-left: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+        }
+
+        #shopSection .itemDescription{
+            height: 90px;
+            margin-top: -35px;
+            border-radius: 10px;
+            
+        }
+
+        .itemContainer button{
+            height: 30px;
+            width: 100px;
+            margin-top: -40px;
+            border-radius: 10px;
+            font-size: .8rem;
+        }
+ /* #shopSection #featuredProductSection *{
+            border: 3px solid red;
+        }   */
+
+

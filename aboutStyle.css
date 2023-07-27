@@ -1,0 +1,53 @@
+/* #aboutSection *{
+    border: solid 3px rgb(205, 50, 50);
+} */
+
+#chickenImage {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 10;
+    background-image: url("IMG/pexels-engin-akyurt-1769279.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 0;
+    z-index: -1;
+    filter: grayscale(100%) blur(1.3px);
+}
+
+#aboutSection {
+    margin: 0px 250px;
+    height: 100vh;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-around;
+}
+    #imageContainer {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+        #imageContainer img{
+            height: 20vh;
+            width: 300px;
+            /* border-radius: 25px; */
+        }
+    #aboutTextContainer{
+        background-color: rgba(255, 255, 255, 0.658);
+        color: blueviolet;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    #aboutSection p{
+        margin: 10px 70px; 
+    }
+
+#about footer{
+    background-color: #8071b4ec;
+}
